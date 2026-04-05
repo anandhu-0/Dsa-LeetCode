@@ -8,6 +8,10 @@ A collection of my LeetCode problem solutions, focused on improving DSA skills a
 
 ###  Easy
 - LC 1281 - Subtract Product and Sum of Digits
+- LC 1920 - Build Array From Permutation
+- LC 1929 - Concatenaton Of Array
+- LC 1480 - Running Sum of 1d Array
+- LC 1672 - Richest Customer Wealth
 
 ### Medium
 - (To be updated)
