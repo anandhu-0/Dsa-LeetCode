@@ -25,6 +25,7 @@ public class LC_1480_RunningSumOfArray {
         int[] ans = runningSum(nums);
         for(int a : ans) System.out.print(a + " ");
 
+        in.close();
     }
 }
 

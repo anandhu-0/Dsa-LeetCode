@@ -23,5 +23,6 @@ public class LC_1929_ConcatnenationOfArray {
         }
         int[] ans = getConcatenation(nums);
         for(int a : ans) System.out.print(a + " ");
+        in.close();
     }
 }

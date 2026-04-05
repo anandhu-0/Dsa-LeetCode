@@ -12,6 +12,9 @@ A collection of my LeetCode problem solutions, focused on improving DSA skills a
 - LC 1929 - Concatenaton Of Array
 - LC 1480 - Running Sum of 1d Array
 - LC 1672 - Richest Customer Wealth
+- Lc 1431 - Kids With the Greatest Number of Candies
+- LC 1470 - Shuffle the Array
+- LC 1512 -  Number of Good Pairs
 
 ### Medium
 - (To be updated)

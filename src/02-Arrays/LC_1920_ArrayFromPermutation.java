@@ -26,6 +26,6 @@ public class LC_1920_ArrayFromPermutation {
         }
         int[] ans = buildArray(nums);
         for(int a : ans) System.out.print(a + " ");
-        
+        in.close();
     }
 }
