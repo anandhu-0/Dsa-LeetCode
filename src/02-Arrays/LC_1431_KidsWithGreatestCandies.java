@@ -29,5 +29,6 @@ public class LC_1431_KidsWithGreatestCandies {
         int extraCandies = in.nextInt();
         
         System.out.println(kidsWithCandies(candies, extraCandies));
+        in.close();
     }
 }

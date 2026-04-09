@@ -26,5 +26,6 @@ public class LC_1281_SubstractProductAndSum {
         int n = scanner.nextInt();
         int result = subtractProductAndSum(n);
         System.out.println("The result is: " + result); 
+        scanner.close();
     }
 }
