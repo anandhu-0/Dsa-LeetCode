@@ -1,4 +1,18 @@
-public class LC_1672_RichestCustomerWealth {
+/*
+Problem: Richest Customer Wealth
+
+Intuition:
+    We need to calculate the total wealth of each customer and find the maximum wealth among them.
+
+Approach:
+    Iterate through each customer's accounts and sum up their wealth.
+    Keep track of the maximum wealth encountered during the iteration.
+    Return the maximum wealth after processing all customers.
+
+Time Complexity: O(m*n) where m is the number of customers and n is the number of accounts per customer.        
+Space Complexity: O(1) - We use a constant amount of space to store the maximum wealth.
+ */
+public class RichestCustomerWealth {
 
     public static  int maximumWealth(int[][] accounts) {
         

@@ -1,7 +1,20 @@
+/*
+Problem: Concatenation of Array.
 
+Intuition: 
+    We need to create a new array that consists of the original array followed by itself.
+
+Approach:
+    We can initialize a new array of size 2*n, where n is the length of the input array.
+    Then we can iterate through the new array and fill it with elements from the original array.
+    For indices less than n, we take elements from the original array directly, and for indices greater than or equal to n, we take elements from the original array using modulo operation.
+
+Time Complexity: O(n) - We iterate through the array once.
+Space Complexity: O(n) - We use an additional array to store the result.
+*/
 import java.util.Scanner;
 
-public class LC_1929_ConcatnenationOfArray {
+public class ConcatnenationOfArray {
 
      public  static int[] getConcatenation(int[] nums) {
         int[] ans = new int[2*nums.length];

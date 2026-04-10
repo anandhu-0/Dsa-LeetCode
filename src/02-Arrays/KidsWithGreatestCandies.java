@@ -1,8 +1,24 @@
+/*
+Problem: Kids with Greatest candies
+
+Intuition:
+    We need to determine if each kid can have the greatest number of candies after receiving some extra candies.
+
+Approach:
+    Find the maximum number of candies any kid currently has.
+    For each kid, check if adding the extra candies would make their total greater than or equal to the maximum.
+    Return a list of booleans indicating the result for each kid.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class LC_1431_KidsWithGreatestCandies {
+public class KidsWithGreatestCandies {
     public static  List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         ArrayList<Boolean> list = new ArrayList<>();
         int max = 0;

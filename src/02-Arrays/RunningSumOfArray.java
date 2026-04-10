@@ -1,7 +1,21 @@
+/*
+Problem: Running Sum of 1d Array
 
+Intuition:
+    We need to calculate the running sum of the array, which means each element at index `i` should be the sum of all elements from index `0` to `i`.
+
+Approach:
+    Initialize a new array `runningsum` of the same length as `nums`.
+    Set the first element of `runningsum` to be the same as the first element of `nums`.
+    Iterate through the `nums` array starting from index `1`, and for each index `i`, set `runningsum[i]` to be the sum of `nums[i]` and `runningsum[i-1]`.
+    Return the `runningsum` array.    
+
+Time Complexity: O(n) - We iterate through the array once.
+Space Complexity: O(n) - We use an additional array to store the running sums.
+ */
 import java.util.Scanner;
 
-public class LC_1480_RunningSumOfArray {
+public class RunningSumOfArray {
         public  static int[] runningSum(int[] nums) {
         int[] runningsum = new int[nums.length];
         runningsum[0] = nums[0];

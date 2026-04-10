@@ -1,6 +1,22 @@
+/*
+Problem: Smaller Numbers Than Current
+
+Intuition:
+    For each element, count how many elements are smaller than it.
+
+Approach:
+    Initialize an array `ans` to store the results.
+    For each element in `nums`, iterate through all elements and count those that are smaller.
+    Store the count in the corresponding position in `ans`.
+    Return the `ans` array.
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+*/
 import java.util.Arrays;
 
-public class LC_1365_SmallerNumbersThanCurrent{
+
+public class SmallerNumbersThanCurrent{
     public static int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ans = new int[nums.length];
         for(int i = 0;i < nums.length;i++){
