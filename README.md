@@ -31,8 +31,9 @@ A collection of my LeetCode problem solutions, focused on improving DSA skills a
 - Problems are solved using optimized approaches where possible  
 - Code is written with readability and simplicity in mind  
 - Each file contains:
-- Approach (comments)
-- Time & Space Complexity  
+- Simplified Approach 
+- Optimized Time And Space Complexities
+
 
 ---
 
